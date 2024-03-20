@@ -11,7 +11,7 @@ export let servizi: Servizio[] = [
     },
     {
         id: 2,
-        name: 'Fisioestetica',
+        name: 'Fisioestetica Dermatofunzionale',
         imgUrl: '/img/servizi/fisioestetica.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/fisioestetica_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/Fisioestetica.png',
@@ -74,7 +74,7 @@ export let servizi: Servizio[] = [
     },
     {
         id: 9,
-        name: 'Terapie Fisiche',
+        name: 'Ultrasuono',
         imgUrl: '/img/servizi/terapie_fisiche.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/terapie_fisiche_banner.webp',
         bannerImgUrlTablet: '/img/servizi/banners/tablet/TerapieFisiche.png',
@@ -83,7 +83,7 @@ export let servizi: Servizio[] = [
     },
     {
         id: 10,
-        name: 'Ginnastica Ipopresiva',
+        name: 'Ginnastica Ipopressiva',
         imgUrl: '',
         bannerImgUrl: '',
         bannerImgUrlTablet: '',
@@ -93,11 +93,11 @@ export let servizi: Servizio[] = [
     {
         id: 11,
         name: 'Riabilitazione Pavimento Pelvico',
-        imgUrl: '',
-        bannerImgUrl: '',
-        bannerImgUrlTablet: '',
-        bannerImgUrlMobile: '',
-        description: '',
+        imgUrl: '/img/servizi/terapie_fisiche.webp',
+        bannerImgUrl: '/img/servizi/terapie_fisiche.webp',
+        bannerImgUrlTablet: '/img/servizi/terapie_fisiche.webp',
+        bannerImgUrlMobile: '/img/servizi/terapie_fisiche.webp',
+        description: 'La riabilitazione del pavimento pelvico è una branca della fisioterapia che si occupa della cura e della prevenzione delle condizioni che possono presentarsi sia nel sesso femminile che in quello maschile.',
     },
     {
         id: 12,
@@ -128,7 +128,7 @@ export let servizi: Servizio[] = [
     },
     {
         id: 15,
-        name: 'Campi Elettromagnetici',
+        name: 'Campi Elettromagnetici FMS',
         imgUrl: '',
         bannerImgUrl: '',
         bannerImgUrlTablet: '',
@@ -143,5 +143,23 @@ export let servizi: Servizio[] = [
         bannerImgUrlTablet: '/img/servizi/banners/tablet/Osteopatia.png',
         bannerImgUrlMobile: '/img/servizi/banners/mobile/Osteopatia.png',
         description: '',
+    },
+    {
+        id: 17,
+        name: 'Fisioestetica dermatofunzionale',
+        imgUrl: '',
+        bannerImgUrl: '',
+        bannerImgUrlTablet: '',
+        bannerImgUrlMobile: '',
+        description: '',
+    },
+    {
+        id: 18,
+        name: 'Riabilitazione temporo mandibilare (ATM)',
+        imgUrl: '',
+        bannerImgUrl: '',
+        bannerImgUrlTablet: '',
+        bannerImgUrlMobile: '',
+        description: 'Ha l’obiettivo di ripristinare le corrette funzionalità dell’articolazione, lavorando sulla correzione dei movimenti articolari, la risoluzione delle problematiche muscolari e delle deviazioni posturali patologiche.',
     },
 ];

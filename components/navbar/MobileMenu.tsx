@@ -8,7 +8,7 @@ interface MobileMenuProps {
 
 export const MobileMenu: React.FC<MobileMenuProps> = ({}) => {
     return(
-        <div className="md:hidden block fixed inset-x-0 bottom-0 z-10 bg-white py-1 z-[100]">
+        <div className="md:hidden block fixed inset-x-0 bottom-0 bg-white py-1 z-[100]">
             <div className="flex px-2 items-center justify-around">
                 <Link href="/chiSiamo">
                     <div className="flex flex-col items-center">

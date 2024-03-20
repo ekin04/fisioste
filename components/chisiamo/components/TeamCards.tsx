@@ -23,23 +23,23 @@ export const TeamCards: React.FC<TeamCardsProps> = ({team}) => {
                          data-aos-delay={member.id * 300}
                     >
                         <div className="bg-gradient-to-t from-[#d8e8ff] to-white">
-                            <Image src={member.imgUrl} width="600" height="743" layout="intrinsic"/>
+                            <Image src={member.imgUrl} width="600" height="743" layout="intrinsic" className=' rounded-3xl'/>
                         </div>
-                        <div className="flex flex-col p-3">
+                        <div className="flex flex-col p-3 mr-auto ml-5">
                             <p className="text-menuText">{member.professione}</p>
-                            <h2 className="text-secondary">{member.nome}</h2>
+                            <h2 className="text-secondary text-lg font-semibold">{member.nome}</h2>
                             <hr className="border border-secondary w-[50px] mt-2 mb-2"/>
-                            <p className="text-secondary">
+                            {/*<p className="text-secondary">
                                 {member.bio.substring(0, 250)+'...'}
                             </p>
-                            <button className="rounded-full border-2 border-secondary mt-4 text-secondary py-1"
+                             <button className="rounded-full border-2 border-secondary mt-4 text-secondary py-1"
                                     onClick={() => {
                                         setSelectedMember(member)
                                         setShowModal(!showModal)
                                     }}
                             >
                                 LEGGI LA BIO COMPLETA
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 )
@@ -66,7 +66,7 @@ export const TeamCards: React.FC<TeamCardsProps> = ({team}) => {
                                 </div>
                                 {/*body*/}
                                 <div className="relative p-6 flex-auto h-[400px] overflow-scroll lg:h-full lg:overflow-hidden">
-                                    <p className="text-slate-500 text-lg text-secondary leading-relaxed">
+                                    <p className=" text-lg text-secondary leading-relaxed">
                                         {selectedMember.specializzazioni.length > 0 &&
                                             <div>
                                                 <h3>SPECIALIZZAZIONI:</h3>

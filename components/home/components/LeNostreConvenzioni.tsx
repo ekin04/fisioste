@@ -41,7 +41,7 @@ export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
 
     return (
         <>
-            <div className="container m-auto flex py-16 flex-col ju items-center text-center">
+            <div className="container  m-auto flex py-16 flex-col ju items-center text-center">
                 <div
                     data-aos="fade-down"
                     data-aos-duration="2000"
@@ -50,33 +50,32 @@ export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
                 >
                     <h1 className="mb-2">Le nostre <span className="text-secondary">convenzioni</span></h1>
                     <hr className="border border-gray-600 w-[100px] mb-5 mx-auto"/>
-                    <h2 className="text-secondary">
+                    <h2 className="text-secondary text-xl md:text-2xl mb-2">
                         HAI UN FONDO DI ASSISTENZA SANITARIA INTEGRATIVA O IL TUO CONTRATTO DI LAVORO NE PREVEDE UNO?
                     </h2>
-                    <p>
-                        Il centro FISIOSTE è convenzionato con i maggiori fondi di Assistenza Sanitaria Integrativa, che
-                        coprono economicamente la maggior parte delle prestazioni effettuate.
+                    <p className='text-base md:text-lg mb-8'>
+                        Il centro FISIOSTE è convenzionato con i maggiori fondi di Assistenza Sanitaria Integrativa, che coprono economicamente la maggior parte delle prestazioni effettuate.
                     </p>
-                    <h2 className="mt-2 text-secondary">
+                    <h2 className="text-secondary text-xl md:text-2xl mb-2">
                         COS’E’?
                     </h2>
-                    <p>
+                    <p className='text-base md:text-lg mb-8'>
                         Il Fondo di Assistenza Sanitaria Integrativa è lo strumento di welfare aziendale integrativo
-                        nato per garantire ai cittadini un’adeguata e tempestiva copertura sanitaria, soprattutto
+                        nato per <br/>garantire ai cittadini un’adeguata e tempestiva copertura sanitaria, soprattutto
                         durante l’età lavorativa.
                     </p>
-                    <h2 className="mt-2 text-secondary">
+                    <h2 className="text-secondary text-xl md:text-2xl mb-2">
                         CHI RIGUARDA?
                     </h2>
-                    <p>
+                    <p className='text-base md:text-lg mb-8'>
                         L’assistenza sanitaria integrativa, può riguardare il singolo cittadino, o potrebbe essere già
-                        prevista nel contratto collettivo di lavoro, dagli albi professionali, o da contratti
+                        prevista nel contratto collettivo di lavoro,<br/>dagli albi professionali, o da contratti
                         integrativi predisposti dalle singole aziende.
                     </p>
-                    <h2 className="mt-2 text-secondary">
+                    <h2 className="text-secondary text-xl md:text-2xl mb-2">
                         A COSA SERVE?
                     </h2>
-                    <p>
+                    <p  className='text-base md:text-lg mb-8'>
                         Con l’assistenza sanitari integrativa, puoi evitare le lunghe liste d’attesa e soprattutto avere
                         agevolazioni economiche sulle prestazioni; inoltre, i fondi offrono una copertura totale o
                         parziale delle spese sostenute presso la struttura convenzionata.

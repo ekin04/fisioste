@@ -9,7 +9,8 @@ import {LaserTerapia} from "./LaserTerapia";
 import {RiabilitazionePosturale} from "./RiabilitazionePosturale";
 import {TerapieFisiche} from "./TerapieFisiche";
 import {ClinicaColonna} from "./ClinicaColonna";
-
+import {Pavimento} from './PavimentoPelvico';
+import { ATM } from './ATM';
 interface FactoryServiziProps {
     servizio: string
 }
@@ -19,7 +20,7 @@ export const FactoryServizi: React.FC<FactoryServiziProps> = ({servizio}) => {
     switch (servizio) {
         case 'Tecar Terapia':
             return <Tecar/>
-        case 'Fisioestetica':
+        case 'Fisioestetica Dermatofunzionale':
             return <Fisioestetica/>
         case "Onde d'urto":
             return <Ondedurto/>
@@ -33,10 +34,14 @@ export const FactoryServizi: React.FC<FactoryServiziProps> = ({servizio}) => {
             return <LaserTerapia/>
         case "Rieducazione Posturale":
             return <RiabilitazionePosturale/>
-        case "Terapie Fisiche":
+        case "Ultrasuono":
             return <TerapieFisiche/>
         case "Clinica Della Colonna":
             return <ClinicaColonna/>
+        case "Riabilitazione Pavimento Pelvico":
+            return <Pavimento/>
+        case "Riabilitazione temporo mandibilare (ATM)":
+            return <ATM/>
         default:
             return <></>
     }

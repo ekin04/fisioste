@@ -69,7 +69,7 @@ const ServizioSpecifico = ({servizi}: InferGetStaticPropsType<typeof getStaticPr
 
                 {/*TABLET*/}
 
-                <div className="h-[48vh] hidden sm:flex xl:hidden p-2 flex justify-start bg-no-repeat bg-auto"
+                <div className="h-[48vh] hidden sm:flex xl:hidden p-2 justify-start bg-no-repeat bg-auto"
                      style={{
                          backgroundImage: `url(${servizioSelezionato.bannerImgUrlTablet})`,
                          backgroundSize: "cover",

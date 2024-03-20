@@ -66,7 +66,7 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
 
 
                 <div className={`w-full border-2 border-gray-300 ${stickyClass}`}>
-                    <div className="container m-auto flex items-center justify-between hidden md:flex">
+                    <div className="container m-auto items-center justify-between hidden md:flex">
                         <div className="py-4">
                             <Link href="/">
                                 <span
@@ -100,8 +100,8 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                             </Link>
                         </div>
 
-                        <div className="flex w-1/5 border-l-2 border-gray-300 py-4 pl-8 justify-end md:justify-between">
-                            <a href="https://www.facebook.com/fisioste" target="_blank"rel="noreferrer">
+                        <div className="flex w-1/5 border-l-2 border-gray-300 py-4 pl-8 justify-end md:justify-end">
+                            <a href="https://www.facebook.com/fisioste" target="_blank"rel="noreferrer" className='md:mr-10 lg:mr-20'>
                                 <FaFacebookF size="20px" color="#283f92"
                                              className="hover:cursor-pointer hover:opacity-50"
                                 />
@@ -110,10 +110,6 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                             <a href="https://www.instagram.com/fisioste/" target="_blank" rel="noreferrer">
                                 <FaInstagram size="20px" color="#283f92" className="hover:cursor-pointer hover:opacity-50"/>
                             </a>
-                            <a href="https://www.youtube.com/channel/UCMDmGkclhs1CWlWe5G3ukbw/featured" target="_blank" rel="noreferrer">
-                                <FaYoutube size="20px" color="#283f92" className="hover:cursor-pointer hover:opacity-50"/>
-                            </a>
-
                         </div>
                     </div>
 

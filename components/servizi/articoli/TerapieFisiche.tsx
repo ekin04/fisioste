@@ -15,15 +15,8 @@ export const TerapieFisiche: React.FC<TerapieFisicheProps> = ({}) => {
                 intensità, agendo in profondità nei tessuti. Da questa vibrazione, viene generato del calore, che genera
                 effetto termico.
             </p>
-            <p className="text-[18px] mb-2 "><span className="font-bold">Elettroterapia:</span> Il termine elettroterapia
-                indica l’utilizzo a scopo terapeutico dell’energia elettrica in tutte le sue forme.
-            </p>
-            {/*<ul className="list-disc px-10">
-                <li>Elettrostimolazione</li>
-                <li>Tens</li>
-                <li>Ionoforesi</li>
-                <li>Magnetoterapia</li>
-            </ul>*/}
+            <hr className='my-10'/>
+            
         </>
     )
 
