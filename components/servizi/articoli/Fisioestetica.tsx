@@ -11,7 +11,7 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
           permettono di mettere il paziente al centro di un percorso terapeutico
           individuale studiato su misura. L’obiettivo è quello di favorire il
           ripristino e il miglioramento degli inestetismi, che influenzano
-          direttamente l'autostima della persona e, di conseguenza, la qualità
+          direttamente l&apos;autostima della persona e, di conseguenza, la qualità
           della vita.
         </p>
         <h2 className="text-secondary text-[25px] mb-3">TECNOLOGIA:</h2>
@@ -21,7 +21,7 @@ export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
           <li>Laserterapia</li>
           <li>Massaggio</li>
           <li>Linfodrenaggio</li>
-          <li>Onde d’urto</li>
+          <li>Onde d&apos;urto</li>
           <li>Tecarterapia</li>
           <li>Campi fms elettromagnetici</li>
           <li>Physio total body</li>
