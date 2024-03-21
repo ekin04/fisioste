@@ -1,11 +1,20 @@
 import React from 'react';
+import Seo from '../components/shared/Seo';
 
 interface Cookie_policyProps {
 }
 
 const Cookie_policy: React.FC<Cookie_policyProps> = ({}) => {
+    const seo = {
+        title: "Fisioste Cookie Policy",
+        description:
+          "Fisioste Privacy Policy",
+        url: "Cookie_policy",
+        index: false,
+      };
     return (
         <>
+        <Seo metadata={seo}/>
             <div className="container m-auto py-10">
                 <h1 className="text-secondary">Cookie Policy</h1>
                 <p className="text-[18px]">
