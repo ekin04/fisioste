@@ -41,6 +41,7 @@ export const PrenotaAppuntamentoDesktop: React.FC<PrenotaAppuntamentoDesktopProp
 
             <div className="w-[200px]">
                 <DatePicker className="rounded-full w-full px-4 py-3 text-[14px] bg-[#6b84c7] text-white focus:outline-none"
+                dateFormat="dd/MM/YYY"
                             selected={startDate} onChange={(date: Date) => {
                     setStartDate(date)
                     setDataPrenotazione(date.toLocaleDateString())

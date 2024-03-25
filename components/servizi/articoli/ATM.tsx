@@ -5,9 +5,6 @@ interface ATMProps {}
 export const ATM: React.FC<ATMProps> = ({}) => {
   return (
     <>
-      <h2 className="text-secondary text-[25px] mb-3">
-        RIABILITAZIONE TEMPORO MANDIBOLARE
-      </h2>
       <p className="text-[18px] mb-3">
         Ha l’obiettivo di ripristinare le corrette funzionalità
         dell’articolazione, lavorando sulla correzione dei movimenti articolari,
@@ -47,6 +44,7 @@ export const ATM: React.FC<ATMProps> = ({}) => {
         <li>Tensioni cervicali</li>
         <li>Acufeni</li>
       </ul>
+      <hr/>
     </>
   );
 };

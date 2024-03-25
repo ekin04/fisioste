@@ -27,8 +27,10 @@ const Home = ({
 
   return (
     <>
+    <div className=" overflow-hidden">
       <Seo metadata={seo} />
       <HomePage servizi={servizi} />
+      </div>
     </>
   );
 };

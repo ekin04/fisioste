@@ -14,7 +14,7 @@ const Custom404: React.FC<Custom404Props> = ({}) => {
                     <h2 className="text-secondary">Siamo Spiacenti, pagina non trovata</h2>
                     <h1 className="text-secondary">Errore 404</h1>
                     <hr className="border-t-1 border-secondary mb-3 w-1/2 m-auto"/>
-                    <Link href="/">
+                    <Link href="/" passHref>
                         <span className="text-secondary hover:underline hover:cursor-pointer">
                             Torna alla Homepage
                         </span>
@@ -32,7 +32,7 @@ const Custom404: React.FC<Custom404Props> = ({}) => {
                     <h2 className="text-secondary">Siamo Spiacenti, pagina non trovata</h2>
                     <h1 className="text-secondary">Errore 404</h1>
                     <hr className="border-t-1 border-secondary mb-3 w-1/2 m-auto"/>
-                    <Link href="/">
+                    <Link href="/" passHref>
                         <span className="text-secondary hover:underline hover:cursor-pointer">
                             Torna alla Homepage
                         </span>

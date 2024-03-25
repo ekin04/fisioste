@@ -8,8 +8,8 @@ const Cookie_policy: React.FC<Cookie_policyProps> = ({}) => {
     const seo = {
         title: "Fisioste Cookie Policy",
         description:
-          "Fisioste Privacy Policy",
-        url: "Cookie_policy",
+          "Fisioste Cookie Policy",
+        url: "cookie_policy",
         index: false,
       };
     return (
