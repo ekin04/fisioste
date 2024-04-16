@@ -52,7 +52,7 @@ const ServizioSpecifico = ({news}: InferGetStaticPropsType<typeof getStaticProps
         return(
             <>
                 <div
-                    className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
+                    className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat bg-center"
                     style={{
                         backgroundImage: `url(${newsSelezionata.bannerImgUrl})`,
                         backgroundSize: "cover",
@@ -65,7 +65,7 @@ const ServizioSpecifico = ({news}: InferGetStaticPropsType<typeof getStaticProps
                 </div>
 
 
-                <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
+                <div className="h-[48vh] bg-center md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
                      style={{
                          backgroundImage: `url(${newsSelezionata.bannerImgUrl})`,
                          backgroundSize: "cover",

@@ -7,7 +7,7 @@ export const HeroNews: React.FC<HeroNewsProps> = ({}) => {
     return(
         <>
             <div
-                className="h-[30vh] bg-gradient-to-t from-white to-[#d8e8ff] flex justify-start"
+                className="h-[160px] md:h-[200px] bg-gradient-to-t from-white to-[#d8e8ff] flex justify-start"
                 /*style={{
                     backgroundImage: "url('/img/news/banner.png')",
                     backgroundSize: "cover",

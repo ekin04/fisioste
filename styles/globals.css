@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @layer base {
     h1 {
         @apply lg:text-[60px] md:text-[48px] text-[35px] font-light;

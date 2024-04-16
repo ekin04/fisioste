@@ -42,7 +42,7 @@ export const SpecialistiBenessere: React.FC<
                   stress, artrosi.
                 </p>
               </div>
-              <Link href="/servizi/16" passHref>
+              <Link href="/servizi/1" passHref>
                 <button className="px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80">
                   SCOPRI DI PIU
                 </button>
@@ -73,7 +73,7 @@ export const SpecialistiBenessere: React.FC<
               <div className="p-5 rounded-2xl bg-white mt-3">
                 <p className="text-secondary text-base">
                   Trattamento di: cellulite, tessuto adiposo localizzato,
-                  smagliature dimagrimento, gambe gonfie e pesanti.
+                  smagliature dimagrimento, gambe gonfie e pesanti, acne, invecchiamento cutaneo.
                 </p>
               </div>
               <Link href="/servizi/2" passHref>
@@ -106,12 +106,10 @@ export const SpecialistiBenessere: React.FC<
             <div>
               <div className="p-5 rounded-2xl bg-white mt-3">
                 <p className="text-secondary text-base">
-                  Trattamenti dedicati alla donna per la cura delle disfunzioni
-                  del pavimento pelvico, pre/post parto, incontinenza, dolori
-                  mestruali, endometriosi etc.
+                È una branca della fisioterapia che si occupa della cura e della prevenzione delle condizioni che possono presentarsi sia nel sesso femminile che in quello maschile.
                 </p>
               </div>
-              <Link href="/servizi/11" passHref>
+              <Link href="/servizi/3" passHref>
                 <button className="px-8 py-2 w-full mt-5 rounded-full bg-secondary text-white text-[14px] hover:opacity-80">
                   SCOPRI DI PIU
                 </button>

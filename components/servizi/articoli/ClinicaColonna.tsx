@@ -1,35 +1,36 @@
 import React from "react";
+import Seo from "../../shared/Seo";
 
 interface ClinicaColonnaProps {}
 
 export const ClinicaColonna: React.FC<ClinicaColonnaProps> = ({}) => {
+  const seo = {
+    title: "Clinica della Colonna",
+    description:
+      "Curiamo le diverse patologie della colonna con esperienza, formazione e metodica altamente specializzata. Valutiamo ogni percorso terapeutico rendendolo personalizzato e individuale curando le diverse patologie della colonna.",
+    url: "servizi/1",
+    index: true,
+  };
   return (
     <>
       <div>
+        <Seo metadata={seo}/>
         <div className="max-w-5xl">
         <p className="text-[18px] mb-4">
-          Grazie all’esperienza e la formazione continua, il nostro staff è in
-          grado di fornire, dopo accurata valutazione, un percorso terapeutico
-          individuale utilizzando una metodica altamente specializzata.
+        Curiamo le diverse <b>patologie della colonna</b> con esperienza, formazione e metodica altamente specializzata. Valutiamo ogni percorso terapeutico rendendolo personalizzato e individuale curando le diverse patologie della colonna.
         </p>
         <p className="text-[18px] mb-4">
-          Il nostro approccio riabilitativo è basato sulle migliori evidenze
-          scientifiche e pratica clinica, questo garantisce il recupero precoce
-          e la guarigione completa del paziente.
+        Recupero precoce e guarigione completa del paziente, grazie al nostro approccio riabilitativo, basato sulle migliori evidenze scientifiche e pratiche cliniche.
         </p>
         <p className="text-[18px] mb-10">
-          Per ogni patologia è possibile utilizzare approcci diversi grazie
-          all’utilizzo di terapia fisica all’avanguardia oppure tecniche di
-          terapia manuale, osteopatia, posturale individuale ed esercizio
-          terapeutico.
+        Studiamo i giusti approcci per ogni tipo di patologia, personalizzando la cura in base alle esigenze del paziente tramite terapie fisiche all’avanguardia, tecniche di terapia manuale, osteopatia, posturale individuale ed esercizio terapeutico.
         </p>
         </div>
         <h2 className="text-secondary text-[25px] mb-3">
           QUALI PATOLOGIE È POSSIBILE CURARE?
         </h2>
         <p className="text-[18px] mb-3">
-          I nostri trattamenti sono mirati per chi soffre di patologie legate al
-          mal di schiena, acuto e cronico come:
+        Ci occupiamo di studiare trattamenti mirati per tutte le patologie che la colonna può presentare, legate al mal di schiena, acuto e cronico, come:
         </p>
         <ul className="list-disc px-10 mb-10 text-[18px]">
           <li>Cervicalgia</li>

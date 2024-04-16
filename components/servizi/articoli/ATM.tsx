@@ -1,33 +1,30 @@
 import React from "react";
+import Seo from "../../shared/Seo";
 
 interface ATMProps {}
 
 export const ATM: React.FC<ATMProps> = ({}) => {
+  const seo = {
+    title: "Riabilitazione Temporo Mandibilare",
+    description:
+      "Lavorando sulla correzione dei movimenti articolari, su eventuali problematiche muscolari e deviazioni posturali patologiche, tramite una riabilitazione temporo mandibolare si ripristinano le corrette funzionalità dell’articolazione.",
+    url: "servizi/17",
+    index: true,
+  };
   return (
     <>
+    <Seo metadata={seo}/>
       <p className="text-[18px] mb-3">
-        Ha l’obiettivo di ripristinare le corrette funzionalità
-        dell’articolazione, lavorando sulla correzione dei movimenti articolari,
-        la risoluzione delle problematiche muscolari e delle deviazioni
-        posturali patologiche.
+      Lavorando sulla correzione dei movimenti articolari, su eventuali problematiche muscolari e deviazioni posturali patologiche, tramite una <b>riabilitazione temporo mandibolare</b> si ripristinano le corrette funzionalità dell’articolazione.
       </p>
       <p className="text-[18px] mb-3">
-        Le disfunzioni dell’ATM, si manifestano con click e scrosci nell’aprire
-        e chiudere la bocca, dolore durante la masticazione, limitazione del
-        movimento, blocco della mandibola, cambiamenti nell’occlusione dentale.
+      Il trattamento elimina le manifestazioni più evidenti delle disfunzioni: click e scrosci nell’aprire e chiudere la bocca, dolore durante la masticazione , limitazione del movimento, blocco della mandibola, cambiamenti nell’occlusione dentale.
       </p>
       <p className="text-[18px] mb-3">
-        Il trattamento, previa valutazione specifica, comprende tecniche di
-        terapia manuale, terapia fisica ed esercizi posturali mirati al
-        ripristino della corretta funzionalità dei muscoli della masticazione e
-        a risolvere le alterazioni patologiche.
+      Con la riabilitazione temporo mandibolare è possibile andare a trattare i fenomeni di bruxismo,eventuali limitazioni articolari della mandibola (apertura, protrazione, retrazione, e lateralità), mal occlusione, rumori articolari, mal di testa, tensioni cervicali e acufeni.
       </p>
       <p className="text-[18px] mb-10">
-        L’ecografia ha il vantaggio di guardare “real time” e in dinamica le
-        strutture anatomiche esaminate, caratteristica fondamentale per il
-        fisioterapista in quanto esperto della funzione. La Fisioterapia
-        Ecoguidata migliora l’immagine del professionista e rafforza l’alleanza
-        terapeutica con il paziente.
+      Con i percorsi individuali personalizzati e la valutazione dell’utilizzo di tecniche di terapia manuale, terapia fisica ed esercizi posturali mirati, i muscoli della masticazione riprendono la loro corretta funzionalità e si risolvono le eventuali alterazioni patologiche.
       </p>
       <h2 className="text-secondary text-[25px] mb-3">
         QUALI PROBLEMATICHE TRATTA:

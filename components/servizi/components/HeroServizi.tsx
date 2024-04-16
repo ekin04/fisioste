@@ -10,7 +10,7 @@ export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
                 <div className="container m-auto">
                     <h1 className="text-secondary"><span className="text-black">I Nostri </span>Servizi</h1>
                     <hr className="border border-secondary w-[200px] mt-2 mb-4"/>
-                    <h2>
+                    <h2 className='text-base md:text-xl max-w-5xl'>
                         Scegliere i migliori professionisti per la cura di se stessi è difficile, ma non impossibile se
                         le conoscenze tecniche diventato un tutt’uno con passione, empatia e attenzione al paziente.
                     </h2>

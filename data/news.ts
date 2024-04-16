@@ -21,7 +21,7 @@ export let news: News[] = [
         titolo: 'Fisioterapia anti-aging ed estetica curativa',
         descrizione: 'Agendo sui meccanismi profondi del corpo, Humantecar permette di recuperare la forma migliore – tanto dal punto di vista funzionale quanto estetico – assieme ad uno strato di benessere diffuso.',
         imgUrl: '/img/news/anti_aging.webp',
-        bannerImgUrl: '/img/news/anti_aging_banner.png',
+        bannerImgUrl: '/img/2024/aging_banner.png',
         categoria: "Notizie"
     },
     {
@@ -33,27 +33,19 @@ export let news: News[] = [
         categoria: "Notizie"
     },
     {
-        id: 4,
-        titolo: 'Clinica delle Tendinopatie',
-        descrizione: 'Cos’è un Tendine? I tendini sono l’insieme di fibre che uniscono il muscolo con l’osso. Sono ricoperti da una guaina che permette di scorrere e scivolare evitando attrito e proteggendolo dallo sfregamento con le altre strutture. ',
-        imgUrl: '/img/news/tendinopatia.webp',
-        bannerImgUrl: '/img/news/tendinopatie_banner.png',
-        categoria: "Notizie"
-    },
-    {
         id: 5,
         titolo: 'Ginnastica Ipopressiva',
         descrizione: 'La ginnastica ipopressiva è una tecnica di riabilitazione posturale volta a rafforzare la fascia addominale e la muscolatura del pavimento pelvico, riequilibrando contemporaneamente le curve fisiologiche della colonna vertebrale.',
-        imgUrl: '/img/news/Ipopressiva.webp',
-        bannerImgUrl: '/img/news/Ipopressiva_banner.png',
+        imgUrl: '/img/2024/ipopressiva.webp',
+        bannerImgUrl: '/img/2024/ipopressiva_banner.webp',
         categoria: "Notizie"
     },
     {
         id: 6,
         titolo: 'Riabilitazione Pavimento Pelvico',
         descrizione: 'I rapporti sessuali non devono provocare dolore; avere dolore nella zona pelvica e genitale durante l’atto sessuale è un chiaro segnale e non deve essere ignorato!',
-        imgUrl: '/img/news/pavimento_pelvico.webp',
-        bannerImgUrl: '/img/news/pavimento_pelvico_banner.png',
+        imgUrl: '/img/2024/pavimento-pelvico.webp',
+        bannerImgUrl: '/img/2024/pavimento-pelvico_tablet.webp',
         categoria: "Notizie"
     },
     {
@@ -69,7 +61,7 @@ export let news: News[] = [
         titolo: 'Endometriosi',
         descrizione: 'L’endometriosi è una patologia cronica a carattere progressivo, che si verifica per la presenza dell’endometrio (tessuto che riveste la cavità uterina) all’esterno dell’utero stesso.',
         imgUrl: '/img/news/endometriosi.png',
-        bannerImgUrl: '/img/news/pavimento_pelvico_banner.png',
+        bannerImgUrl: '/img/2024/endometrosi.webp',
         categoria: "Notizie"
     },
     {
@@ -84,8 +76,8 @@ export let news: News[] = [
         id: 10,
         titolo: 'Esercizio Terapeutico',
         descrizione: 'La MET è l’acronimo inglese di Medical Exercise Therapy, ed è il concetto di esercizio terapeutico per i pazienti che nasce nelle scuole di Terapia Manuale intorno agli anni ’60.',
-        imgUrl: '/img/news/esercizio_terapeutico.jpeg',
-        bannerImgUrl: '/img/news/esercizio_terapeutico_banner.png',
+        imgUrl: '/img/2024/terapeutico.webp',
+        bannerImgUrl: '/img/2024/terapeutico_banner.webp',
         categoria: "Notizie"
     },
     {
@@ -101,7 +93,7 @@ export let news: News[] = [
         titolo: 'Linfedema',
         descrizione: 'Il linfedema è una patologia cronica degenerativa, caratterizzata da una raccolta di fluidi, ricchi di proteine, nello spazio tra cute e sottocute, causato da un insufficiente drenaggio linfatico che può essere di tipo congenito o acquisito.',
         imgUrl: '/img/news/linfedema.jpeg',
-        bannerImgUrl: '/img/news/linfedema_banner.png',
+        bannerImgUrl: '/img/2024/linfodema_banner.webp',
         categoria: "Notizie"
     },
     {
@@ -124,8 +116,8 @@ export let news: News[] = [
         id: 15,
         titolo: 'Fisioterapia Estetica Dermatofunzionale',
         descrizione: 'La Fisioterapia Dermatofunzionale è l\'area specialistica della fisioterapia clinica preposta alla valutazione e al trattamento dei disturbi fisico-estetici-funzionali derivanti da condizioni cliniche, patologie, interventi chirurgici ed eventi che influiscono direttamente o indirettamente sull\'integrità dell\'apparato tegumentario.',
-        imgUrl: '/img/news/fisioterapia_estetica_dermatofunzionale.jpeg',
-        bannerImgUrl: '/img/news/fisioterapia_estetica_dermatofunzionale_banner.png',
+        imgUrl: '/img/2024/fisioestetica_articolo.webp',
+        bannerImgUrl: '/img/2024/fisioestetica_banner_articolo.webp',
         categoria: "Notizie"
     },
     {
@@ -141,15 +133,15 @@ export let news: News[] = [
         titolo: 'Linfodrenaggio',
         descrizione: 'Il drenaggio linfatico manuale è una delle tecniche utilizzate in quella che viene definita TERAPIA DECONGESTIVA COMPLESSA ad oggi considerata il trattamento d’eccellenza per i problemi linfovenosi.',
         imgUrl: '/img/news/linfodrenaggio_vodder.jpeg',
-        bannerImgUrl: '/img/news/linfodrenaggio_vodder_banner.png',
+        bannerImgUrl: '/img/2024/linfodrenaggio_banner.webp',
         categoria: "Notizie"
     },
     {
         id: 18,
         titolo: 'Vertigini e Cervicale',
         descrizione: 'Le vertigini cervicali sono un tipo di vertigine in cui si verifica sia dolore al collo, che sensazione di disorientamento e instabilità. Chi soffre di vertigini cervicali sente come se il mondo intorno stesse girando e, quasi sempre, anche dolore al collo.',
-        imgUrl: '/img/news/vertigini_cervicale.jpeg',
-        bannerImgUrl: '/img/news/vertigini_cervicale_banner.png',
+        imgUrl: '/img/2024/cervicale.webp',
+        bannerImgUrl: '/img/2024/cervicale_banner.webp',
         categoria: "Notizie"
     },
     {

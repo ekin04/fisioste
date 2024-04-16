@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /privacy_policy
+Disallow: /cookie_policy
+
+Sitemap: https://fisioste.it/sitemap.xml

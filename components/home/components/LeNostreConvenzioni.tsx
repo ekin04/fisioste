@@ -26,6 +26,7 @@ export const LeNostreConvenzioni: React.FC<LeNostreConvenzioniProps> = ({}) => {
         {id: 14, imgUrl: '/img/convenzioni/conv14.jpg', width: '250px', height: '150px', alt: 'cnvenzione 14'},
         {id: 15, imgUrl: '/img/convenzioni/conv15.jpg', width: '250px', height: '150px', alt: 'cnvenzione 15'},
         {id: 16, imgUrl: '/img/convenzioni/conv16.jpg', width: '250px', height: '150px', alt: 'cnvenzione 16'},
+        {id: 17, imgUrl: '/img/convenzioni/logoCampa.gif', width: '250px', height: '150px', alt: 'cnvenzione 16'},
 
     ]
 

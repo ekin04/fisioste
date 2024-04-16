@@ -24,7 +24,7 @@ const Seo: React.FC<SeoProps> = ({
     <>
       <Head>
         <title>{"Fisioste | " + metadata.title}</title>
-        <meta name="title" content={"MM Systems | " + metadata.title} />
+        <meta name="title" content={"Fisioste | " + metadata.title} />
         <meta name="description" content={metadata.description} />
         <meta
           name="keywords"

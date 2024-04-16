@@ -23,18 +23,14 @@ export const HeroChiSiamo: React.FC<HeroChiSiamoProps> = ({}) => {
           </h1>
           <hr className="border border-secondary w-[200px] mt-2 mb-4" />
           
-          <p className=" text-lg mb-2">
-            Il nostro Centro di Fisioterapia e Osteopatia a Teramo è
-            specializzato nella cura delle patologie della colonna vertebrale,
-            in estetica dermatofunzionale e riabilitazione pavimento pelvico.</p>
+          <p className=" text-lg mb-2 mt-5">
+          Ci interessiamo della vostra salute e del vostro benessere dal 2010.</p>
             <p className="text-lg mb-2">
-            Dal 2010 ci occupiamo della vostra salute e benessere.</p>
+            Da quell’anno nel nostro Centro di Fisioterapia e Osteopatia di Teramo ci dedichiamo e specializziamo nella cura delle patologie della colonna vertebrale, nell’ estetica dermatofunzionale e nella riabilitazione del pavimento pelvico.</p>
             <p className="text-lg mb-2">
-            Il nostro <b>STAFF</b> è sempre in continuo aggiornamento sulle nuove metodiche in
-            Fisioterapia e sulle tecnologie più innovative in terapia fisica per
-            garantire il miglior approccio terapeutico personalizzato per ogni
-            patologia. Coinvolgere attivamente i pazienti nel percorso
-            riabilitativo e rieducativo è il nostro obiettivo principale.</p>
+            Garantiamo il miglior approccio terapeutico personalizzato per ogni patologia, aggiornandoci costantemente sulle nuove metodiche nel campo della fisioterapia e sulle tecnologie più innovative in terapia fisica.</p>
+            <p className="text-lg mb-2">
+            Il nostro <b>STAFF</b> ha come obiettivo quello  di impegnarsi con dedizione e competenza al coinvolgimento attivo dei pazienti durante il percorso riabilitativo e rieducativo.</p>
           
           </div>
         </div>

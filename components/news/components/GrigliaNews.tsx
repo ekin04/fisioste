@@ -9,7 +9,7 @@ interface GrigliaNewsProps {
 export const GrigliaNews: React.FC<GrigliaNewsProps> = ({news}) => {
     return(
         <>
-            <div className="container m-auto grid lg:grid-cols-3 gap-14 py-20">
+            <div className="container m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 py-2 mb-10">
                 {news.filter(n => n.categoria !== "Info").map(n => {
                     return (
                         <div key={n.id}
@@ -19,17 +19,18 @@ export const GrigliaNews: React.FC<GrigliaNewsProps> = ({news}) => {
                              data-aos-once="true"
                              data-aos-delay={n.id * 100}
                         >
-                            <div className="p-40 rounded-t-2xl"
+                            <Link href={`/news/${n.id}`}>
+                            <div className=" h-80 rounded-t-2xl bg-center"
                                  style={{
                                      backgroundImage: `url(${n.imgUrl})`,
                                      backgroundSize: 'cover',
                                      backgroundRepeat: "no-repeat"
                                  }}
-                            />
+                            /></Link>
                             <div className="flex flex-col p-4 ">
                                 <h2 className="text-secondary">{n.titolo}</h2>
                                 <hr className="border-t-2 border-secondary mt-2 mb-2"/>
-                                <p>{n.descrizione}</p>
+                                <p>{(n.descrizione.length > 180) ? n.descrizione.substring(0, 180) + '...' : n.descrizione}</p>
                                 <Link href={`/news/${n.id}`}>
                                     <button className="text-secondary py-1 mt-5 rounded-full border-2 border-secondary hover:cursor-pointer hover:bg-secondary hover:text-white">CONTINUA LA LETTURA</button>
                                 </Link>

@@ -55,7 +55,7 @@ const ServizioSpecifico = ({servizi}: InferGetStaticPropsType<typeof getStaticPr
             <>
                 {/*DESKTOP*/}
                 <div
-                    className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden xl:flex justify-start bg-no-repeat"
+                    className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden xl:flex justify-start bg-no-repeat bg-center"
                     style={{
                         backgroundImage: `url(${servizioSelezionato.bannerImgUrl})`,
                         backgroundSize: "cover",
@@ -69,7 +69,7 @@ const ServizioSpecifico = ({servizi}: InferGetStaticPropsType<typeof getStaticPr
 
                 {/*TABLET*/}
 
-                <div className="h-[48vh] hidden sm:flex xl:hidden p-2 justify-start bg-no-repeat bg-auto"
+                <div className="h-[48vh] hidden sm:flex xl:hidden p-2 justify-start bg-center bg-no-repeat bg-auto"
                      style={{
                          backgroundImage: `url(${servizioSelezionato.bannerImgUrlTablet})`,
                          backgroundSize: "cover",
@@ -83,7 +83,7 @@ const ServizioSpecifico = ({servizi}: InferGetStaticPropsType<typeof getStaticPr
 
                 {/*MOBILE*/}
 
-                <div className="h-[48vh] sm:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
+                <div className="h-[48vh] sm:hidden lg:h-[55vh] bg-center p-2 flex justify-start bg-no-repeat bg-auto"
                      style={{
                          backgroundImage: `url(${servizioSelezionato.bannerImgUrlMobile})`,
                          backgroundSize: "cover",

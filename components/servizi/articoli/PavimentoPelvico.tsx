@@ -1,19 +1,27 @@
 import React from "react";
+import Seo from "../../shared/Seo";
 
 interface PavimentoProps {}
 
 export const Pavimento: React.FC<PavimentoProps> = ({}) => {
+  const seo = {
+    title: "Riabilitazione Pavimento Pelvico",
+    description:
+      "La riabilitazione del pavimento pelvico è una branca della fisioterapia che si occupa della cura e della prevenzione delle condizioni che possono presentarsi sia nel sesso femminile che in quello maschile.",
+    url: "servizi/3",
+    index: true,
+  };
   return (
     <>
-      <p className="text-[18px] mb-10">
-        La riabilitazione del pavimento pelvico è una branca della fisioterapia
-        che si occupa della cura e della prevenzione delle condizioni che
-        possono presentarsi sia nel sesso femminile che in quello maschile.
+    <Seo metadata={seo}/>
+      <p className="text-[18px] mb-3">
+      Perché è importante dedicarsi alla <b>riabilitazione del pavimento pelvico</b>?
+      </p>
+      <p className="text-[18px] mb-3">
+      L’obiettivo quello di curare e prevenire alcune condizioni che possono presentarsi sia nel sesso femminile che in quello maschile, quali: 
       </p>
 
-      <h2 className="text-secondary text-[25px] mb-3">
-        QUALI PATOLOGIE È POSSIBILE CURARE?
-      </h2>
+  
       <ul className="list-disc px-10 text-[18px] mb-10">
         <li>Perineo discendente e prolassi</li>
         <li>Prostatite</li>
