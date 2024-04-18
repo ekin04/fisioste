@@ -4,6 +4,8 @@ import {useRouter} from "next/router";
 import {fetchNews} from "../api/news";
 import {FactoryNews} from "../../components/news/articoli/FactoryNews";
 import {Carosello, CaroselloItem} from "../../components/shared/Carosello";
+import SeoImage from '../../components/shared/SeoImage';
+
 
 export async function getStaticPaths() {
 
@@ -49,8 +51,16 @@ const ServizioSpecifico = ({news}: InferGetStaticPropsType<typeof getStaticProps
 
 
     if(newsSelezionata){
+        const seo = {
+            title: newsSelezionata.titolo,
+            description: newsSelezionata.descrizione,
+            url: "news/" + newsSelezionata.id,
+            index: true,
+            image: newsSelezionata.imgUrl,
+          };
         return(
             <>
+            <SeoImage metadata={seo}/>
                 <div
                     className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat bg-center"
                     style={{

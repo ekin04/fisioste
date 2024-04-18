@@ -6,6 +6,7 @@ interface Metadata {
   description: string;
   url: string;
   index: boolean;
+  image: string;
 }
 
 interface SeoProps {
@@ -17,10 +18,10 @@ const Seo: React.FC<SeoProps> = ({
     description: "Fisioterapia e Osteopatia. Professionalità e tecnologia al servizio del benessere e del recupero del paziente.",
     url: "",
     index: true,
+    image: "",
   },
 }) => {
-  const baseUrl = "https://fisioste.vercel.app"
-  const seoImage = baseUrl + "/banner_og.jpg";
+    const baseUrl = "https://fisioste.vercel.app"
   return (
     <>
       <Head>
@@ -34,12 +35,12 @@ const Seo: React.FC<SeoProps> = ({
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={baseUrl + "/" + metadata.url}
+          content={baseUrl +"/" + metadata.url}
         />
         <meta property="og:title" content={"Fisioste | " + metadata.title} />
         <meta property="og:site_name" content="Fisioste - Fisioterapia e Osteopatia Teramo"  />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={seoImage} />
+        <meta property="og:image" content={baseUrl + metadata.image} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
@@ -50,7 +51,7 @@ const Seo: React.FC<SeoProps> = ({
           content={"Fisioste | " + metadata.title}
         />
         <meta property="twitter:description" content={metadata.description} />
-        <meta property="twitter:image" content={seoImage} />
+        <meta property="twitter:image" content={baseUrl + metadata.image} />
         <meta name="robots" content={metadata.index ? "index, follow" : "noindex, nofollow"}/>
         <meta name="googlebot" content={metadata.index ? "index, follow" : "noindex, nofollow"}/>
         <link rel="author" href={baseUrl} />

@@ -1,13 +1,20 @@
 import React from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
-
+import Seo from '../components/shared/Seo';
 interface Custom404Props {
 }
 
 const Custom404: React.FC<Custom404Props> = ({}) => {
+    const seo = {
+        title: "ERRORE 404",
+        description: "",
+        url: "",
+        index: false,
+      };
     return(
         <>
+        <Seo metadata={seo}/>
             <div className="container m-auto hidden sm:flex items-center justify-center py-4">
                 <Image src="/img/404/plug.png" width={313} height={530} layout="intrinsic" alt="plug"/>
                 <div className="text-center flex-col ml-10 p-10 rounded-2xl bg-white shadow-2xl shadow-blue-200">

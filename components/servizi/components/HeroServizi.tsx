@@ -1,11 +1,20 @@
 import React from 'react';
+import Seo from '../../shared/Seo';
 
 interface HeroServiziProps {
 }
 
 export const HeroServizi: React.FC<HeroServiziProps> = ({}) => {
+    const seo = {
+        title: "Servizi",
+        description:
+          "Scopri i servizi di fisioterapia su Fisioste: trattamenti personalizzati, riabilitazione, terapie innovative e molto altro per migliorare il tuo benessere fisico. Entra ora e scopri come possiamo aiutarti a raggiungere i tuoi obiettivi di salute e benessere!",
+        url: "servizi",
+        index: true,
+      };
     return (
         <>
+        <Seo metadata={seo}/>
             <div className="h-[40vh] bg-gradient-to-t from-white to-[#d9e8ff] flex justify-start">
                 <div className="container m-auto">
                     <h1 className="text-secondary"><span className="text-black">I Nostri </span>Servizi</h1>

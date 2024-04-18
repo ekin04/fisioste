@@ -5,6 +5,7 @@ import {useRouter} from "next/router";
 import {Carosello, CaroselloItem} from "../../components/shared/Carosello";
 import {PrenotaAppuntamento} from "../../components/home/components/prenotaAppuntamento/PrenotaAppuntamento";
 import {FactoryServizi} from "../../components/servizi/articoli/FactoryServizi";
+import SeoImage from '../../components/shared/SeoImage';
 
 export async function getStaticPaths() {
 
@@ -51,8 +52,16 @@ const ServizioSpecifico = ({servizi}: InferGetStaticPropsType<typeof getStaticPr
 
 
     if(servizioSelezionato){
+        const seo = {
+            title: servizioSelezionato.name,
+            description: servizioSelezionato.description,
+            url: "servizi/" + servizioSelezionato.id,
+            index: true,
+            image: servizioSelezionato.imgUrl
+          };
         return(
             <>
+            <SeoImage metadata={seo}/>
                 {/*DESKTOP*/}
                 <div
                     className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden xl:flex justify-start bg-no-repeat bg-center"
