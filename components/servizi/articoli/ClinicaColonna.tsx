@@ -1,20 +1,11 @@
 import React from "react";
-import Seo from "../../shared/Seo";
 
 interface ClinicaColonnaProps {}
 
 export const ClinicaColonna: React.FC<ClinicaColonnaProps> = ({}) => {
-  const seo = {
-    title: "Clinica della Colonna",
-    description:
-      "Curiamo le diverse patologie della colonna con esperienza, formazione e metodica altamente specializzata. Valutiamo ogni percorso terapeutico rendendolo personalizzato e individuale curando le diverse patologie della colonna.",
-    url: "servizi/1",
-    index: true,
-  };
   return (
     <>
       <div>
-        <Seo metadata={seo}/>
         <div className="max-w-5xl">
         <p className="text-[18px] mb-4">
         Curiamo le diverse <b>patologie della colonna</b> con esperienza, formazione e metodica altamente specializzata. Valutiamo ogni percorso terapeutico rendendolo personalizzato e individuale curando le diverse patologie della colonna.

@@ -1,19 +1,10 @@
 import React from "react";
-import Seo from "../../shared/Seo";
 
 interface ATMProps {}
 
 export const ATM: React.FC<ATMProps> = ({}) => {
-  const seo = {
-    title: "Riabilitazione Temporo Mandibilare",
-    description:
-      "Lavorando sulla correzione dei movimenti articolari, su eventuali problematiche muscolari e deviazioni posturali patologiche, tramite una riabilitazione temporo mandibolare si ripristinano le corrette funzionalità dell’articolazione.",
-    url: "servizi/17",
-    index: true,
-  };
   return (
     <>
-    <Seo metadata={seo}/>
       <p className="text-[18px] mb-3">
       Lavorando sulla correzione dei movimenti articolari, su eventuali problematiche muscolari e deviazioni posturali patologiche, tramite una <b>riabilitazione temporo mandibolare</b> si ripristinano le corrette funzionalità dell’articolazione.
       </p>

@@ -7,7 +7,7 @@ export const Ondedurto: React.FC<OndedurtoProps> = ({}) => {
     return (
         <>
             <p className="text-[18px] mb-4">
-                Le onde d’urto sono delle onde acustiche che trasportano alta energia, trasmesse attraverso la
+                Le onde d’urto radiali sono delle onde acustiche che trasportano alta energia, trasmesse attraverso la
                 superficie della pelle a diffuse radialmente nel corpo, nella zona del dolore.
             </p>
             <p className="text-[18px] mb-4">

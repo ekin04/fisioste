@@ -21,7 +21,7 @@ const Seo: React.FC<SeoProps> = ({
     image: "",
   },
 }) => {
-    const baseUrl = "https://fisioste.vercel.app"
+    const baseUrl = "https://fisioste.it"
   return (
     <>
       <Head>

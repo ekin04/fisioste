@@ -1,19 +1,11 @@
 import React from "react";
-import Seo from "../../shared/Seo";
 
 interface PavimentoProps {}
 
 export const Pavimento: React.FC<PavimentoProps> = ({}) => {
-  const seo = {
-    title: "Riabilitazione Pavimento Pelvico",
-    description:
-      "La riabilitazione del pavimento pelvico è una branca della fisioterapia che si occupa della cura e della prevenzione delle condizioni che possono presentarsi sia nel sesso femminile che in quello maschile.",
-    url: "servizi/3",
-    index: true,
-  };
+
   return (
     <>
-    <Seo metadata={seo}/>
       <p className="text-[18px] mb-3">
       Perché è importante dedicarsi alla <b>riabilitazione del pavimento pelvico</b>?
       </p>

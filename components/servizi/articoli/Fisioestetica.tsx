@@ -1,18 +1,10 @@
 import React from "react";
-import Seo from "../../shared/Seo";
+
 interface FisioesteticaProps {}
 
 export const Fisioestetica: React.FC<FisioesteticaProps> = ({}) => {
-  const seo = {
-    title: "Fisioestetica Dermatofunzionale",
-    description:
-      "Ci impegniamo, tramite percorsi individuali personalizzati e l’applicazione della fisioestetica dermatofunzionale (FDF), a favorire il ripristino e il miglioramento degli inestetismi, supportati da una preparazione in costante aggiornamento e dalla ricerca delle tecnologie più innovative.",
-    url: "servizi/2",
-    index: true,
-  };
   return (
     <>
-    <Seo metadata={seo}/>
       <div className="max-w ">
         <p className="text-[18px] mb-10">
           Con la <b>fisioestetica dermatofunzionale (FDF)</b> miglioriamo la

@@ -19,7 +19,7 @@ const Seo: React.FC<SeoProps> = ({
     index: true,
   },
 }) => {
-  const baseUrl = "https://fisioste.vercel.app"
+  const baseUrl = "https://fisioste.it"
   const seoImage = baseUrl + "/banner_og.jpg";
   return (
     <>

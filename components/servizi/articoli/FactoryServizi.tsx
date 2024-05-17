@@ -12,6 +12,7 @@ import { ClinicaColonna } from "./ClinicaColonna";
 import { Pavimento } from "./PavimentoPelvico";
 import { ATM } from "./ATM";
 import { Vibra } from "./Vibra";
+import { OndedurtoFocali } from "./OndedurtoFocali"
 interface FactoryServiziProps {
   servizio: string;
 }
@@ -22,8 +23,10 @@ export const FactoryServizi: React.FC<FactoryServiziProps> = ({ servizio }) => {
       return <Tecar />;
     case "Fisioestetica Dermatofunzionale":
       return <Fisioestetica />;
-    case "Onde d'urto":
+    case "Onde d'urto radiali":
       return <Ondedurto />;
+      case "Onde d'urto focali":
+        return <OndedurtoFocali />;
     case "Terapia Manuale":
       return <TerapiaManuale />;
     case "FEG":
@@ -44,6 +47,7 @@ export const FactoryServizi: React.FC<FactoryServiziProps> = ({ servizio }) => {
       return <ATM />;
     case "Vibra 3.0":
       return <Vibra />;
+  
     default:
       return <></>;
   }

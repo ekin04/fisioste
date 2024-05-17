@@ -1,19 +1,11 @@
 import React from "react";
-import Seo from "../../shared/Seo";
 
 interface VibraProps {}
 
 export const Vibra: React.FC<VibraProps> = ({}) => {
-  const seo = {
-    title: "Vibra 3.0",
-    description:
-      "VIBRA 3.0: le sue vibrazioni meccano-sonore dall’elevato valore terapeutico, sono capaci di indurre risposte adattive di tipo metabolico e neurofisiologico nella catena neuromuscolare e nelle strutture mio-osteoarticolari.",
-    url: "servizi/18",
-    index: true,
-  };
+
   return (
     <>
-    <Seo metadata={seo}/>
       <p className="text-[18px] mb-10">
       VIBRA 3.0: le sue vibrazioni meccano-sonore dall’elevato valore terapeutico, sono capaci di indurre risposte adattive di tipo metabolico e neurofisiologico nella catena neuromuscolare e nelle strutture mio-osteoarticolari.
       </p>

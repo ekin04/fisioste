@@ -7,6 +7,7 @@ import {Servizio} from "../../pages/api/servizi";
 import {LeNostreConvenzioni} from "./components/LeNostreConvenzioni";
 import {DiconoDiNoi} from "./components/DiconoDiNoi";
 import {Newsletter} from "./components/Newsletter";
+import { HeroNew } from './components/HeroNew';
 
 interface HomePageProps {
     servizi: Servizio[]
@@ -16,7 +17,8 @@ export const HomePage: FC<HomePageProps> = ({servizi}) => {
 
     return (
         <>
-            <Hero/>
+            
+            <HeroNew/>
             <PrenotaAppuntamento servizi={servizi}/>
             <SpecialistiBenessere/>
             <Servizi servizi={servizi}/>
