@@ -21,7 +21,7 @@ export let news: News[] = [
         titolo: 'Fisioterapia anti-aging ed estetica curativa',
         descrizione: 'Agendo sui meccanismi profondi del corpo, Humantecar permette di recuperare la forma migliore – tanto dal punto di vista funzionale quanto estetico – assieme ad uno strato di benessere diffuso.',
         imgUrl: '/img/news/anti_aging.webp',
-        bannerImgUrl: '/img/2024/aging_banner.png',
+        bannerImgUrl: '/img/2024/aging_banner.webp',
         categoria: "Notizie"
     },
     {

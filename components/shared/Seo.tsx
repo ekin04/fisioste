@@ -26,7 +26,7 @@ const Seo: React.FC<SeoProps> = ({
       <Head>
         <title>{"Fisioste | " + metadata.title}</title>
         <meta name="title" content={"Fisioste | " + metadata.title} />
-        <meta name="description" content={metadata.description} />
+        <meta name="description" content={metadata.description.slice(0,150)+" ..."} />
         <meta
           name="keywords"
           content="Fisioterapia,Fisioste,Osteopatia,Teramo"
@@ -36,6 +36,7 @@ const Seo: React.FC<SeoProps> = ({
           property="og:url"
           content={baseUrl + "/" + metadata.url}
         />
+        <link rel="canonical" href={baseUrl + "/" + metadata.url} />
         <meta property="og:title" content={"Fisioste | " + metadata.title} />
         <meta property="og:site_name" content="Fisioste - Fisioterapia e Osteopatia Teramo"  />
         <meta property="og:description" content={metadata.description} />
