@@ -20,7 +20,7 @@ export let news: News[] = [
         id: 2,
         titolo: 'Fisioterapia anti-aging ed estetica curativa',
         descrizione: 'Agendo sui meccanismi profondi del corpo, Humantecar permette di recuperare la forma migliore – tanto dal punto di vista funzionale quanto estetico – assieme ad uno strato di benessere diffuso.',
-        imgUrl: '/img/news/anti_aging.webp',
+        imgUrl: '/img/2024/aging.webp',
         bannerImgUrl: '/img/2024/aging_banner.webp',
         categoria: "Notizie"
     },
@@ -51,7 +51,7 @@ export let news: News[] = [
     {
         id: 7,
         titolo: 'Fisioterapia Donna',
-        descrizione: '',
+        descrizione: 'Utilizziamo le migliori tecnologie e apparecchiature con certificazioni medicali come: Tecar, Onde d’urto, Criolipolisi, Physio TT, Campi elettromagnetici ad alta intensità, Cavitazione, Radiofrequenza.',
         imgUrl: '/img/home/terapiamanuale.webp',
         bannerImgUrl: '/img/servizi/banners/desktop/terapia_manuale_banner.webp',
         categoria: "Info"
@@ -60,7 +60,7 @@ export let news: News[] = [
         id: 8,
         titolo: 'Endometriosi',
         descrizione: 'L’endometriosi è una patologia cronica a carattere progressivo, che si verifica per la presenza dell’endometrio (tessuto che riveste la cavità uterina) all’esterno dell’utero stesso.',
-        imgUrl: '/img/news/endometriosi.png',
+        imgUrl: '/img/2024/endometriosi.webp',
         bannerImgUrl: '/img/2024/endometrosi.webp',
         categoria: "Notizie"
     },
@@ -92,7 +92,7 @@ export let news: News[] = [
         id: 12,
         titolo: 'Linfedema',
         descrizione: 'Il linfedema è una patologia cronica degenerativa, caratterizzata da una raccolta di fluidi, ricchi di proteine, nello spazio tra cute e sottocute, causato da un insufficiente drenaggio linfatico che può essere di tipo congenito o acquisito.',
-        imgUrl: '/img/news/linfedema.jpeg',
+        imgUrl: '/img/2024/linfedema.webp',
         bannerImgUrl: '/img/2024/linfodema_banner.webp',
         categoria: "Notizie"
     },
@@ -132,7 +132,7 @@ export let news: News[] = [
         id: 17,
         titolo: 'Linfodrenaggio',
         descrizione: 'Il drenaggio linfatico manuale è una delle tecniche utilizzate in quella che viene definita TERAPIA DECONGESTIVA COMPLESSA ad oggi considerata il trattamento d’eccellenza per i problemi linfovenosi.',
-        imgUrl: '/img/news/linfodrenaggio_vodder.jpeg',
+        imgUrl: '/img/2024/linfodrenaggio.webp',
         bannerImgUrl: '/img/2024/linfodrenaggio_banner.webp',
         categoria: "Notizie"
     },

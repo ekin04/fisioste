@@ -12,7 +12,11 @@ import { ClinicaColonna } from "./ClinicaColonna";
 import { Pavimento } from "./PavimentoPelvico";
 import { ATM } from "./ATM";
 import { Vibra } from "./Vibra";
-import { OndedurtoFocali } from "./OndedurtoFocali"
+import { OndedurtoFocali } from "./OndedurtoFocali";
+import { Criolipolisi } from "./Criolipolisi";
+import { FMS } from "./FMS";
+import { Endometriosi } from "./Endometriosi";
+import { DiastasiAddominale } from "./DiastasiAddominale";
 interface FactoryServiziProps {
   servizio: string;
 }
@@ -25,8 +29,8 @@ export const FactoryServizi: React.FC<FactoryServiziProps> = ({ servizio }) => {
       return <Fisioestetica />;
     case "Onde d'urto radiali":
       return <Ondedurto />;
-      case "Onde d'urto focali":
-        return <OndedurtoFocali />;
+    case "Onde d'urto focali":
+      return <OndedurtoFocali />;
     case "Terapia Manuale":
       return <TerapiaManuale />;
     case "FEG":
@@ -47,7 +51,15 @@ export const FactoryServizi: React.FC<FactoryServiziProps> = ({ servizio }) => {
       return <ATM />;
     case "Vibra 3.0":
       return <Vibra />;
-  
+    case "Criolipolisi":
+      return <Criolipolisi />;
+    case "Campi Elettromagnetici FMS":
+      return <FMS />;
+    case "Trattamento Endometriosi":
+      return <Endometriosi />;
+    case "Trattamento Diastasi Addominale":
+      return <DiastasiAddominale />;
+
     default:
       return <></>;
   }

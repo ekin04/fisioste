@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import {FaFacebookF, FaInstagram, FaYoutube} from "react-icons/fa";
+import {FaFacebookF, FaInstagram, FaYoutube , FaPhoneAlt} from "react-icons/fa";
 import {useRouter} from "next/router";
 
 interface DesktopMenuProps {
@@ -38,7 +38,7 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                         </div>
                     </Link>
                     <div className="flex">
-                        <div className="flex items-center mr-6">
+                        <div className="hidden 2xl:flex items-center mr-6">
                             <Image src={'/img/clock1.png'} width="50px" height="50px" layout="fixed" alt="Fisioste clock"/>
                             <div className="flex flex-col ml-4">
                                 <h3 className="text-xl lg:text-[16px] text-secondary font-medium">Orari</h3>
@@ -53,8 +53,15 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                                 <a href="tel:+393288349050" className="text-secondary text-[14px] font-light hover:cursor-pointer hover:underline">+39 3288349050 </a>
                             </div>
                         </div>
+                        <div className="flex items-center mr-6">
+                        <FaPhoneAlt className='w-10 h-10 text-secondary' />
+                            <div className="flex flex-col ml-4">
+                                <h3 className="text-xl lg:text-[16px] text-secondary font-medium">Numero fisso</h3>
+                                <a href="tel:+390861285075" className="text-secondary text-[14px] font-light hover:cursor-pointer hover:underline">0861 285075 </a>
+                            </div>
+                        </div>
 
-                        <div className="flex items-center">
+                        <div className="items-center flex ">
                             <Image src={'/img/pin1.png'} width="50px" height="50px" layout="intrinsic" alt="Fisioste pin"/>
                             <div className="flex flex-col ml-4">
                                 <h3 className="text-xl lg:text-[16px] text-secondary font-medium">Vieni a trovarci</h3>
@@ -78,7 +85,7 @@ export const DesktopMenu: React.FC<DesktopMenuProps> = ({}) => {
                                 <span
                                     className="text-gray-500 font-normal hover:cursor-pointer hover:text-secondary text-[16px] mr-8 uppercase"
                                     style={{fontWeight: router.pathname === "/chiSiamo" ? 900 : 400, color: router.pathname === "/chiSiamo" ? '#264193' : ''}}
-                                >Chi siamo</span>
+                                >Vision & Mission</span>
                             </Link>
                             <Link href="/servizi">
                                 <span

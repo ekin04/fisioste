@@ -18,7 +18,7 @@ export const FooterMenu: React.FC<FooterMenuProps> = ({}) => {
                 <Link href="/chiSiamo">
                     <span
                         className="text-primary text-center font-normal hover:cursor-pointer hover:text-secondary text-base uppercase">
-                        Chi siamo
+                        Vision & Mission
                     </span>
                 </Link>
                 <Link href="/servizi">

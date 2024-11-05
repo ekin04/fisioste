@@ -4,6 +4,7 @@ import { Carosello, CaroselloItem } from "../../shared/Carosello";
 import VisibilitySensor from "react-visibility-sensor";
 import CountUp from "react-countup";
 import Link from "next/link";
+import CaroselloServizi from "./CaroselloServizi";
 
 interface ServiziProps {
   servizi: Servizio[];
@@ -31,12 +32,12 @@ export const Servizi: React.FC<ServiziProps> = ({ servizi }) => {
     <div className="container m-auto flex flex-col py-6">
       <div>
         <div
-          className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16"
+          className="flex mx-auto"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <div className="p-6 rounded-2xl bg-[#e1edff] hidden lg:flex">
+          <div className="p-6 rounded-2xl bg-[#e1edff] hidden lg:flex w-1/4">
             <div className="flex flex-col">
               <h2 className="text-2xl xl:text-[25px] mb-2 text-primary">
                 Tutti i Servizi
@@ -61,8 +62,12 @@ export const Servizi: React.FC<ServiziProps> = ({ servizi }) => {
               </ul>
             </div>
           </div>
-          <Carosello data={itemsCarosello} />
+          {/* <Carosello data={itemsCarosello} /> */}
+          <div className="w-full lg:w-3/4 flex justify-center items-center">
+          <CaroselloServizi/>
+          </div>
         </div>
+        
         <div
           className="flex flex-col w-full text-center items-center mt-20"
           data-aos="zoom-out"

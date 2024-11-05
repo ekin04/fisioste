@@ -1,9 +1,5 @@
 import { CaroselloHeroHome } from "../../shared/CaroselloHeroHome";
 import Image from "next/image";
-import conv1 from "../../../public/img/convenzioni/conv2.jpg";
-import conv2 from "../../../public/img/convenzioni/conv3.jpg";
-import conv3 from "../../../public/img/convenzioni/conv4.jpg";
-import conv4 from "../../../public/img/convenzioni/conv8.jpg";
 import { PhoneIcon } from "@heroicons/react/solid";
 
 interface HeroNewProps {}
@@ -12,7 +8,7 @@ export const HeroNew: React.FC<HeroNewProps> = () => {
   return (
     <>
       <div className="w-full">
-        <div className="container mx-auto pt-2 pb-5 lg:pt-10 lg:pb-0 px-4 sm:px-6 lg:px-8 ">
+        <div className="container mx-auto pt-2 pb-5 lg:pt-6 lg:pb-0 px-4 sm:px-6 lg:px-8 ">
           <div className="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center ">
             <div className="lg:col-span-3 lg:ml-8">
               <div
@@ -37,7 +33,7 @@ export const HeroNew: React.FC<HeroNewProps> = () => {
                 />
               </div>
               <h1
-                className="block mt-1 lg:mt-6 text-center lg:text-left text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl"
+                className="block mt-1 lg:mt-6 text-center lg:text-left text-3xl font-extrabold text-secondary sm:text-4xl lg:text-5xl"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-once="true"
@@ -103,9 +99,9 @@ export const HeroNew: React.FC<HeroNewProps> = () => {
                   height={120}
                 />
               </div> */}
-                <a href="tel:+393288349050" className="flex justify-center items-center w-1/2 text-white bg-secondary hover:bg-primary transition px-3 py-2 rounded-3xl mx-auto lg:mx-0">
+                <a href="tel:+390861285075" className="flex justify-center items-center w-1/2 text-white bg-secondary hover:bg-primary transition px-3 py-2 rounded-3xl mx-auto lg:mx-0">
                   <PhoneIcon className="mr-5 w-8 h-8" />
-                  3288349050
+                  0861285075
                 </a>
               </div>
             </div>

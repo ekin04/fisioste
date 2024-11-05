@@ -23,7 +23,7 @@ export const ChiSiamoComponent: React.FC<ChiSiamoComponentProps> = ({team}) => {
         <>
         <Seo metadata={seo}/>
             <HeroChiSiamo/>
-            <TeamCards team={team}/>
+            {/* <TeamCards team={team}/> */}
             <DiconoDiNoi/>
             <LeNostreConvenzioni/>
         </>

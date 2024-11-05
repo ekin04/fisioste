@@ -13,7 +13,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({}) => {
                 <Link href="/chiSiamo">
                     <div className="flex flex-col items-center">
                         <FaInfoCircle size="25px" color="#5972b4"/>
-                        <span>Chi siamo</span>
+                        <span>Mission</span>
                     </div>
                 </Link>
                 <Link href="/servizi">

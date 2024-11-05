@@ -7,9 +7,9 @@ export const HeroContatti: React.FC<HeroContattiProps> = ({}) => {
     return (
         <>
             <div
-                className="h-[48vh] lg:h-[40vh] bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat"
+                className="h-[450px] w-auto bg-gradient-to-t from-white to-[#d8e8ff] hidden md:flex justify-start bg-no-repeat bg-center"
                 style={{
-                    backgroundImage: "url('/img/news/banner.png')",
+                    backgroundImage: "url('/img/2024/ipopressiva_banner.webp')",
                     backgroundSize: "cover",
                 }}
             >
@@ -25,9 +25,9 @@ export const HeroContatti: React.FC<HeroContattiProps> = ({}) => {
             </div>
 
 
-            <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-auto"
+            <div className="h-[48vh] md:hidden lg:h-[55vh] p-2 flex justify-start bg-no-repeat bg-right"
                  style={{
-                     backgroundImage: "url('/img/servizi/banners/mobile/Osteopatia.png')",
+                     backgroundImage: "url('/img/2024/ipopressiva_banner.webp')",
                      backgroundSize: "cover",
                  }}
             >
